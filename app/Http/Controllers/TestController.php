@@ -15,6 +15,6 @@ class TestController extends Controller
             ->select('id')
             ->get();
 
-        dd($tests);
+        // dd($tests);
     }
 }
