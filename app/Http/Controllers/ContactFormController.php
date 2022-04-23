@@ -25,6 +25,7 @@ class ContactFormController extends Controller
     public function create()
     {
         //
+        return view('contact.create');
     }
 
     /**
@@ -35,7 +36,11 @@ class ContactFormController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        /*
+        * PHP ではPOST を使っていたが、
+        * Laravel では request クラスで
+        * データを取得する
+        */
     }
 
     /**
